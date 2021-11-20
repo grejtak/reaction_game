@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="!l2CjNv)FoID~#oiQm`^">count</variable></variables><block type="pxt-on-start" id="SzExqo1aJ=cg~6dZE40H" x="20" y="20"><statement name="HANDLER"><block type="controls_repeat_ext" id="(l#m0U!`U)p!SG^^K-ii"><value name="TIMES"><shadow type="math_whole_number" id="4H)OWswBR!hUE5$qU?6i"><field name="NUM">3</field></shadow></value><statement name="DO"><block type="device_show_leds" id="}P+)[EaBu:OuoqwQjT4@"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        # . . . .
+        `</field><next><block type="device_show_leds" id="`1JX0EP+1.MNtcE;b$gQ"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="variables_set" id="1i6BJ`BsT6`BpSLdStVT"><field name="VAR" id="!l2CjNv)FoID~#oiQm`^">count</field><value name="VALUE"><shadow type="math_number" id="|Dh#~-}u#FEnyIPy5yy`"><field name="NUM">0</field></shadow></value></block></next></block></next></block></statement></block></statement></block><block type="device_button_event" id="C3i^tQ{(_*4$8JnjSTAy" x="309" y="123"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="variables_change" id="aHk7kTs2}JuoT`~K](;|"><field name="VAR" id="!l2CjNv)FoID~#oiQm`^">count</field><value name="VALUE"><shadow type="math_number" id=";eL$^kS5Yuh1`Pn^;+^H"><field name="NUM">1</field></shadow></value></block></statement></block><block type="device_button_event" id="q;JM=d5cEqZ7Y-TUnEw5" x="307" y="304"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_number" id="fS9~V~`Q^jB2X)Y7)3tX"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="#a2aTK-rn:`Jl`:~uD@r"><field name="VAR" id="!l2CjNv)FoID~#oiQm`^">count</field></block></value><next><block type="device_clear_display" id="0.W~_,tPl50i94Mq;LBU"><next><block type="variables_set" id="!(srFZ;]ZcYA=w)`zlT!"><field name="VAR" id="!l2CjNv)FoID~#oiQm`^">count</field><value name="VALUE"><shadow type="math_number" id="OINc$T6F_4i3?{{PgSdH"><field name="NUM">0</field></shadow></value></block></next></block></next></block></statement></block></xml>
